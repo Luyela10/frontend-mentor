@@ -1,0 +1,133 @@
+:root {
+  --maincolor1: hsl(300, 43%, 22%);
+  --mainColor2: hsl(303, 10%, 53%);
+
+  --secondaryColor1: hsl(333, 80%, 67%);
+  --secondaryColor2: hsl(300, 24%, 96%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: purple;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 12px;
+}
+
+.section {
+  transform: translateY(150px);
+}
+
+.top-section {
+  padding-bottom: 30px;
+}
+
+.rate-item {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  margin: 10px;
+  height: 60%;
+}
+
+.rate-item p {
+  font-size: 10px;
+  color: purple;
+  font-weight: bold;
+}
+
+.rate-icon {
+  padding: 10px;
+  margin: 0px;
+  height: 50%;
+}
+
+.rate-text {
+  padding: 15px 0px 0px 10px;
+  margin: 0px;
+  height: 50%;
+}
+
+.icon {
+  color: orange;
+  font-size: 10px;
+}
+
+.attribution {
+  transform: translateY(300px);
+}
+
+
+CARDS
+
+        <div class="card-deck">
+          <div class="buyer-card card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3">
+                  <img class="card-img" src="images/image-colton.jpg" alt="" />
+                </div>
+                <div class="buyer-profile col-6">
+                  <p class="buyer-name card-text">Colton Smith</p>
+                  <p class="buyer-status card-text">Verified Buyer</p>
+                </div>
+              </div>
+              <p class="buyer-testimonial card-text">
+                "We needed the same printed design as the one we had ordered a
+                week prior. Not only did they find the original order, but we
+                also received it in time. Excellent!"
+              </p>
+            </div>
+          </div>
+
+          <div class="buyer-card card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3">
+                  <img class="card-img" src="images/image-irene.jpg" alt="" />
+                </div>
+                <div class="buyer-profile col-6">
+                  <p class="buyer-name card-text">Irene Roberts</p>
+                  <p class="buyer-status card-text">Verified Buyer</p>
+                </div>
+              </div>
+              <p class="buyer-testimonial card-text">
+                "Customer service is always excellent and very quick turn
+                around. Completely delighted with the simplicity of the purchase
+                and the speed of delivery."
+              </p>
+            </div>
+          </div>
+
+          <div class="buyer-card card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3">
+                  <img class="card-img" src="images/image-anne.jpg" alt="" />
+                </div>
+                <div class="buyer-profile col-6">
+                  <p class="buyer-name card-text">Anne Wallace</p>
+                  <p class="buyer-status card-text">Verified Buyer</p>
+                </div>
+              </div>
+              <p class="buyer-testimonial card-text">
+                "Put an order with this company and can only praise them for the
+                very high standard. Will definitely use them again and recommend
+                them to everyone!"
+              </p>
+            </div>
+          </div>
+        </div>
